@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Nav = () => {
 
-    const [navbarOpen, setNavbarOpen] = React.useState(false);
+    const [navbarOpen, setNavbarOpen] = useState(false);
     return (
       <>
         <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-pink-500 mb-3">
