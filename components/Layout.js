@@ -5,7 +5,7 @@ import Nav from './Nav';
 const Layout = ({ children }) => (
   <>
     <Head>
-      <title>Film Database</title>
+      <title>Strapy Database</title>
     </Head>
 
     <Nav />
