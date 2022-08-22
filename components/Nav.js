@@ -56,8 +56,8 @@ const Nav = () => {
             <img
               className="m-3"
               src="/logo.png"
-              width={200}
-              height={50}
+              width={50}
+              height={20}
               alt="Strapi Logo"
             />
           </a>
@@ -92,16 +92,15 @@ const Nav = () => {
               md:pt-0 space-x-2"
         >
           <li>
-            <Link href="/">
-              <a className="md:p-2 py-2 block hover:text-purple-400">Home</a>
-            </Link>
+              <a href={"/"} className="md:p-2 py-2 block hover:text-purple-400">Home</a>
+
           </li>
           <li>
-            <Link href="/restaurents">
-              <a className="md:p-2 py-2 block hover:text-purple-400" href="#">
+            
+              <a className="md:p-2 py-2 block hover:text-purple-400"href={"/restaurents"}>
                 Restaurents
               </a>
-            </Link>
+
           </li>
          
           
